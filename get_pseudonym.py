@@ -20,7 +20,7 @@ api_key = sys.argv[3]
 
 
 def get_sessionid_token():
-  url = "http://localhost:8083/sessions"
+  url = root_url+"/sessions"
   payload={}
   headers = {
     'mainzellisteApiKey': 'changeThisApiKey',
